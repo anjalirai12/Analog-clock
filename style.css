@@ -1,0 +1,56 @@
+body {
+  background-image: url("background.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  color: #ffbe0f;
+}
+
+#ClockContainer {
+  position: relative;
+  height: 46vw;
+  width: 46vw;
+  background-image: url("clock.jpg");
+  background-size: 100%;
+  margin: auto;
+}
+
+#Hour, #Minute, #Second {
+  position: absolute;
+  left: 51%;
+  background-color: red;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#point {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  height: 3%;
+  width: 3%;
+  background-color: red;
+  border-radius: 100%;
+}
+
+#Hour {
+  top: 39%;
+  height: 11%;
+  width: 1%;
+}
+
+#Minute {
+  top: 34%;
+  height: 15%;
+  width: 1%;
+}
+
+#Second {
+  top: 33%;
+  height: 17%;
+  width: 1%;
+}
